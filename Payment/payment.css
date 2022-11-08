@@ -1,0 +1,132 @@
+*{
+    margin: 0;
+    padding:0; 
+    
+}
+body{
+    font-family: sans-serif;
+   
+}
+.app-container{
+    
+    height:660px;
+    width:350px;
+    background-image: linear-gradient(#0099e5,#52325d);
+    top:50%;
+    left:50%;
+    transform: translate(-50%,-50%);
+    position: absolute;
+    
+}
+.top-box{
+    height:150px;
+    background-color:#00bce4;
+    border-bottom-left-radius: 80px;
+    border-bottom-right-radius: 80px;
+}
+.top-box p{
+    text-align: center;
+    padding-top: 20px;
+    color: #fff;
+}
+.left-icon{
+ float: left;
+margin-left: 30px;
+}
+.right-icon{
+     float:right;
+margin-right: 30px;
+}
+.middle-box{
+    height: 150px;
+    background-image: linear-gradient(#0099e5,#52325d);
+    margin: -70px 30px 20px;
+    color:#fff;
+    text-align: center;
+    font-size: 12px;
+    border-radius: 10px;
+}
+.middle-box h1{
+    
+    padding-top: 30px;
+    padding-bottom: 30px;
+    font-size: 50px;
+    font-weight: normal;
+}
+.middle-box h1 span{
+   font-size: 20px;
+    margin-left: 5px;
+    bottom: 18px;
+    position: relative;
+}
+.payment-option{
+    color: #fff;
+    margin: 5px 30px ;
+    height: 30px;
+    width: 290px;
+    background-color: #0087d2;
+    border: none;
+    cursor: pointer;
+   
+}
+.card-details{
+    background: #fff;
+    color: #555;
+    margin:10px 30px;
+    padding: 10px;
+    height: 295px;
+    width: 280px;
+}
+.card-details p{
+    
+    font-size: 16px;
+}
+.card-details label{
+    font-size: 14px;
+    line-height: 20px;
+}
+.card-num-feild{
+    margin-top: 10px;
+    display: inline-block;
+}
+.date-feild{
+    margin-top: 10px;
+    display: inline-block;
+}
+.cvc-feild{
+    margin-top: 10px;
+    display: inline-block;
+    float: right;
+}
+
+.name-feild{
+    margin-top: 5px;
+    
+}
+.card-num-feild, .name-feild{
+    width: 270px;
+}
+.date-feild,.cvc-feild{
+    width: 80px;
+}
+.card-details input{
+    border:1px solid #ccc;
+    height: 22px;
+    padding: 3px;
+    font-size: 12px;
+}
+.card-details input::placeholder{
+    
+    color: #ccc;
+    
+}
+.pay-btn{
+     color: #fff;
+    margin-top: 20px ;
+    height: 30px;
+    width: 275px;
+    background-color: #0087d2;
+    border: none;
+    cursor: pointer;
+    
+}

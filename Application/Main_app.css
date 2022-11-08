@@ -1,0 +1,46 @@
+/*start of main*/
+.row{
+   margin-left: 300px; 
+    margin-top: 50px;
+  
+}
+.column{
+ float:left;
+ margin: 30px;
+width: 30%;
+ background-color: #808080;
+    
+    
+}
+a{
+    font-size:120px;
+    color:#74d2e7;
+    text-decoration: none;
+   
+}
+h3{
+    font-size: 25px;
+    margin-top: 30px;
+    color: #fff;
+}
+.header{
+	padding:20px;
+	
+	color:#7d3f98;
+	border-bottom:1px solid #e0e4e8;
+    font-size: 70px;
+   
+}
+/* Style the counter cards */
+
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  text-align: center;
+  background-color: #6a737b;
+
+}
+
+
+
+/*end of main*/

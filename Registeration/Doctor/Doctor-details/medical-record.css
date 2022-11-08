@@ -1,0 +1,27 @@
+body{background:#FFF;
+font-family:Arial,Tahoma 
+ }
+
+hr{border:1PX solid #EEE }
+fieldset{background:#00a4e4;
+    padding:20PX;border:1PX 
+ solid #CCC;margin:20PX auto;
+    width:500PX ;
+height: 600px;}
+legend{background:#fc636b;
+    padding:20PX;border:1PX solid #CCC;
+    font-size: 25px;
+    color: #333333;
+}
+h4,label{
+    margin-bottom:40px;
+}
+h4{
+    margin-top: 10px;
+    font-size: 25px;
+    color: #4d4f53;
+}
+textarea{
+  margin-top: 20px;  
+   font-size: 15px;   
+}

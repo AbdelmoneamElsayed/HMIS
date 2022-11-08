@@ -1,0 +1,55 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<meta charset="utf-8">
+        <title>Doctor Schedule</title>
+		<link rel="stylesheet" href="schedule.css">
+        <link rel="stylesheet" href="evo-calendar.min.css">
+        <link rel="stylesheet" href="evo-calendar.midnight-blue.min.css">
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+<link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+<link href="https://fonts.googleapis.com/css2?family=Roboto&display=swap" rel="stylesheet">
+    </head>
+
+<body>
+<div class="io">
+    <div id="calendar"></div>
+    </div>
+  
+
+
+    
+    <script src="https://cdn.jsdelivr.net/npm/jquery@3.4.1/dist/jquery.min.js"></script>
+    <script src="evo-calendar.min.js"></script>
+    <script>
+    
+    $(document).ready(function() {
+      $('#calendar').evoCalendar({
+         
+          calendarEvents: [{
+                  id: 'bHay68s', // Event's ID (required)
+                  name: "Mona Ali", // Event name (required)
+                  date: "January/1/2021", // Event date (required)
+                  description: "Surgery At 7:00 Am",
+                  type: "event", // Event type (required)
+                  everyYear: true // Same event every year (optional)
+            },
+            {
+                  name: "Vacation Leave",
+                  badge: "02/13 - 02/15", // Event badge (optional)
+                  date: ["February/13/2020", "February/15/2020"], // Date range
+                  description: "Vacation leave for 3 days.", // Event description (optional)
+                  type: "event",
+                  color: "#63d867" // Event custom color (optional)
+             }
+         ]      
+           
+  });
+    })
+
+    
+    
+    </script>
+
+    </body>
+</html>

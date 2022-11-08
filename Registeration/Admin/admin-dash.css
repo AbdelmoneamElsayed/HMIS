@@ -1,0 +1,136 @@
+/*start of dashboard*/
+@import url('https://fonts.googleapis.com/css2?family=Josefin+Sans:wght@300&family=Roboto:wght@100&display=swap');
+*{
+  margin:0;
+  padding:0;
+  box-sizing:border-box;
+  list-style:none;
+  text-decoration:none;
+  font-family:'josefin sans',sans-serif;
+  
+}
+body{
+background:#f3f5f9;
+}
+.header{
+font-size:50px;	
+}
+.wrapper{
+  display:flex;
+  position:relative;  
+	
+}
+.wrapper .sidebar{
+	position:fixed;
+	width:200px;
+	height:100%;
+	background:#1793d1;
+	padding:30px 0;
+}
+
+.wrapper .sidebar h2{
+	color:#fff;
+	text-transform:uppercase;
+	text-align:center;
+	margin-bottom:30px;
+	
+}
+.wrapper .sidebar ul li{
+	padding:15px;
+	border-bottom:1px solid rgba(0,0,0,0.05);
+	border-top:1px solid rgba(225,225,225,0.05);
+}
+.wrapper .sidebar ul li a{
+	color:#bdb8d7;
+	display:block;
+}
+.wrapper .sidebar ul li a .fas{
+	width:25px;
+}
+
+.wrapper .sidebar ul li:hover{
+	background:#0169a4;
+}
+.wrapper .sidebar ul li :hover a{
+	color:#fff;
+}
+.wrapper .sidebar .social_media{
+	position:absolute;
+	bottom:0;
+	left:50%;
+	transform:translatex(-50%);
+	display:flex;
+}
+.wrapper .sidebar .social_media a{
+	display:block;
+	width:40px;
+	background:#594f8d;
+	height:40px;
+	line-height:40px;
+	text-align:center;
+	margin:0 5px;
+	color:#bdb8d7;
+	border-top-right-radius:5px;
+	border-top-left-radius:5px;
+}
+.wrapper .main_content{
+	width:100%;
+	margin-left:200px;
+}
+.wrapper .main_content .header{
+	padding:20px;
+	background:#fff;
+	color:#0169a4;
+	border-bottom:1px solid #e0e4e8;
+}
+/*end of dashboard*/
+/*start of main*/
+.row{
+   margin-left: 100px; 
+    margin-top: 50px;
+    
+}
+.column{
+ float:left;
+ margin: 10px;
+  width: 30%;
+  padding:  20px;
+ background-color: #808080;
+}
+h1{
+    font-size: 60px;
+    color:#0099e5;
+}
+
+
+
+/* Style the counter cards */
+.card {
+  box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2);
+  padding: 50px;
+  text-align: center;
+  background-color: #f1f1f1
+
+}
+
+
+input[type="text"]{
+	padding:12px;
+	width:250px;
+}
+select{
+	padding:12px;
+	width:250px;
+}
+textarea{
+	padding:50px;
+	width:550px;
+}
+button{
+	width:550px;
+	padding:10px;
+	color:#fff;
+	font-size:20px;
+	background-color:#2FA5EB !important;
+}
+/*end of main*/
